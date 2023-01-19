@@ -13,6 +13,6 @@ def multirec(client, message, channel, url, title, lang)
     output = f'{title} {channel} [{lang}] [H264]_Tony.mkv'
     merge = f1.split() + [url] + f2.split() + f3.split() + [output]
 
-subprocess(merge)
+subprocess.run(merge)
 
 return output 
