@@ -16,6 +16,6 @@ def rip(bot, update):
 
 if os.path.exists(newfile) == True:
    msg.edit(text="Recording done")
-   bot.send_video(video=newfile, chat_id=update.from_user.id, caption = f'{newfile}'
+   bot.send_video(video=newfile, chat_id=update.from_user.id, caption = f'{newfile}')
 
 tbot.run()
