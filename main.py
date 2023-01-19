@@ -4,7 +4,7 @@ import os.path
 from pyrogram import *
 from pyrogram.types import *
 from urllib.request import urlopen, Request 
-from rec import *
+from imp import *
 
 newfile = "hi"
 
