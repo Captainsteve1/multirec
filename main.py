@@ -12,7 +12,6 @@ tbot = Client("IPTV recorder bot for kids", bot_token=config.bot_token, api_id=c
 @tbot.on_message(filters.command('rec') & filters.private)
 def rip(bot, update):
 
-print("progress")
 newfile = "hi test"
 
   if os.path.exists(newfile) == True:
