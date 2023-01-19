@@ -10,9 +10,9 @@ from rec import *
 tbot = Client("IPTV recorder bot for kids", bot_token=config.bot_token, api_id=config.api_id, api_hash=config.api_hash)
 
 @tbot.on_message(filters.command('rec') & filters.private)
+def rip(bot, update):
 
-print("Recording in progress")
-
+print("progress")
 newfile = "hi test"
 
   if os.path.exists(newfile) == True:
