@@ -18,4 +18,7 @@ if os.path.exists(newfile) == True:
    msg.edit(text="Recording done")
    bot.send_video(video=newfile, chat_id=update.from_user.id, caption = f'{newfile}')
 
+print("______-----_____")
+print("Bot Starting Up!")
+print("Bot Started Up!")
 tbot.run()
