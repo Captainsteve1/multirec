@@ -13,7 +13,7 @@ def mutirec(client, message):
     multirec(client, message)
     message.reply_text(text="recording")
 
-newfile = multirec(client, Message)
+newfile = multirec(client, message, channel, url, title, lang, s, s2)
 
 if os.path.exists(newfile) == True:
    msg.edit(text="Recording done")
