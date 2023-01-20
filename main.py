@@ -12,7 +12,7 @@ tbot = Client("IPTV recorder bot for kids", bot_token=config.bot_token, api_id=c
 def multirec(client, message):
     message.reply_text(text="recording")
 
-newfile = multirec(client, Message, channel, url, title, lang, s, s2)
+newfile = multirec(client, Message):
 
 if os.path.exists(newfile) == True:
    msg.edit(text="Recording done")
